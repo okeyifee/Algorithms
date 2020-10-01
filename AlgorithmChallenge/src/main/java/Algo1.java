@@ -9,6 +9,7 @@ public class Algo1 {
 
     public static class User {
 
+//      Variable naming
         private String name;
         private boolean isLoggedIn;
         private Date lastLoggedInAt;
@@ -17,7 +18,7 @@ public class Algo1 {
         public User(String name) {
             this.name = name;
         }
-
+//      Method to check if user is logged in
         boolean isLoggedIn() {
             if(this.isLoggedIn){
                 return true;
@@ -30,7 +31,7 @@ public class Algo1 {
             return lastLoggedInAt;
         }
 
-
+//      method to login user
         public void logIn() {
             if (!this.isLoggedIn){
                 this.isLoggedIn = true;
@@ -55,7 +56,7 @@ public class Algo1 {
             this.name= name;
         }
 
-
+//      method to allow user edit his comment
         public boolean canEdit(Comment comment) {
             if (comment.author.name == name) {
                 return true;
@@ -71,7 +72,7 @@ public class Algo1 {
     }
 
 
-
+//  moderator inherits from user class
     public static class Moderator extends User{
 
         public Moderator(String name) {
