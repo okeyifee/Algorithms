@@ -31,3 +31,4 @@ public class Kata {
         return map.get(l) + solution(n-l);
     }
 }
+
