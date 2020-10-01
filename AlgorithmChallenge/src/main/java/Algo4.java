@@ -5,8 +5,10 @@ Converts a number(string) to it's Roman numeral equivalent
  */
 
 public class Kata {
+//    initializes a new treeMap
     private final static TreeMap<Integer, String> map = new TreeMap<Integer, String>();
 
+//    Adds key-value pair to the initialized map
     static {
         map.put(1000, "M");
         map.put(900, "CM");
