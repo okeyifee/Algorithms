@@ -58,6 +58,7 @@ public class Algo1 {
 
 //      method to allow user edit his comment
         public boolean canEdit(Comment comment) {
+
             if (comment.author.name == name) {
                 return true;
             }
@@ -137,6 +138,7 @@ public class Algo1 {
 
 
         public String toString() {
+
             if(this.repliedTo == null) {
                 return message + " by " + author.name;
             }
