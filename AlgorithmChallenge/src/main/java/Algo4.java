@@ -27,6 +27,7 @@ public class Kata {
 
     public String solution(int n) {
         int l =  map.floorKey(n);
+
         if ( n == l ) {
             return map.get(n);
         }
