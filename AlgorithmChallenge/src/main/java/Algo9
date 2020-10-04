@@ -18,7 +18,7 @@ public class FindOdd {
                 length++;
                 i++;
             }
-
+checks if there is a remainder from the dision of length by 2
             if(length%2==1){
                 odd=a[i];
                 break;
