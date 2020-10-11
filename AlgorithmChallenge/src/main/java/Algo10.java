@@ -11,6 +11,10 @@ class Challenge {
         int j = 1;
         int k = 1;
 
+
+
+
+
         for (i = 1; i < n; i++) {
 
             j = j + 1;
@@ -18,5 +22,4 @@ class Challenge {
         }
         return k;
     }
-
 }
