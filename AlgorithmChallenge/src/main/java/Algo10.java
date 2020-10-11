@@ -11,10 +11,7 @@ class Challenge {
         int j = 1;
         int k = 1;
 
-
-
-
-
+// loop to get the count
         for (i = 1; i < n; i++) {
 
             j = j + 1;
