@@ -2,10 +2,10 @@ import java.util.*;
 
 class Challenge {
     public static long triangular( Integer n ) {
-//        prints given number
+//  prints given number
         System.out.println(n);
 
-//        checks if given number is within range
+//  checks if given number is within range
         if (n < 1 || n > 10_000){
             return 0;
         }
