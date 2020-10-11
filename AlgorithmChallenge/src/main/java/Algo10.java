@@ -19,6 +19,7 @@ class Challenge {
             j = j + 1;
             k = k + j;
         }
+//        returns answer
         return k;
     }
 }
