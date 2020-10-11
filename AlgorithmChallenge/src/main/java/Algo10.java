@@ -4,6 +4,7 @@ class Challenge {
     public static long triangular( Integer n ) {
         System.out.println(n);
 
+//        checks if given number is within range
         if (n < 1 || n > 10_000){
             return 0;
         }
