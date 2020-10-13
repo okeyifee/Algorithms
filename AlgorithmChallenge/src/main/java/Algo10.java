@@ -2,6 +2,7 @@ import java.util.*;
 
 class Challenge {
     public static long triangular( Integer n ) {
+
 //  prints given number
         System.out.println(n);
 
@@ -19,6 +20,7 @@ class Challenge {
             j = j + 1;
             k = k + j;
         }
+
 // returns answer
         return k;
     }
