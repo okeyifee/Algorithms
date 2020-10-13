@@ -137,9 +137,7 @@ public class Algo1 {
 
         public String toString() {
 
-            if(this.repliedTo == null) {
-                return message + " by " + author.name;
-            }
+            if(this.repliedTo == null) { return message + " by " + author.name; }
             return message + " by " + author.name + " (replied to " +
                     repliedTo.author.name + ")";
         }
