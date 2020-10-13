@@ -9,6 +9,7 @@ public class HtmlColorParser {
 
 
     public RGB parse(String color) {
+
 //       Checks if keys(names of preset colour in lowercase exist)
         if (presetColors.containsKey(color.toLowerCase())){
             return parse(presetColors.get(color.toLowerCase()));
