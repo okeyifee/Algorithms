@@ -10,6 +10,7 @@ public class Kata {
 
 //    Adds key-value pair to the initialized map
     static {
+
         map.put(1000, "M");
         map.put(900, "CM");
         map.put(500, "D");
