@@ -116,7 +116,6 @@ public class Algo1 {
             this.repliedTo = repliedTo;
         }
 
-
         public String getMessage() {
             return message;
         }
@@ -135,7 +134,6 @@ public class Algo1 {
         public Comment getRepliedTo() {
             return repliedTo;
         }
-
 
         public String toString() {
 
