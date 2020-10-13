@@ -12,9 +12,7 @@ public class EvenOrOdd {
         if yes, returns even, else return odd
          */
 
-        if (number % 2 == 0){
-            return "Even";
-        }
+        if (number % 2 == 0){ return "Even"; }
         return "odd";
     }
 }
