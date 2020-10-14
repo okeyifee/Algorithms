@@ -3,7 +3,6 @@ Checks if a give number is even or odd
  */
 
 public class EvenOrOdd {
-
     public static String even_or_odd(int number) {
 
         /*
