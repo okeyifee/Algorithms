@@ -39,7 +39,6 @@ public class Algo1 {
             }
         }
 
-
         public void logOut() {
             if(this.isLoggedIn){
                 this.isLoggedIn = false;
