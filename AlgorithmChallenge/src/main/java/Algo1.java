@@ -26,7 +26,6 @@ public class Algo1 {
             return false;
         }
 
-
         Date getLastLoggedInAt() {
             return lastLoggedInAt;
         }
