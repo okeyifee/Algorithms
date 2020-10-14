@@ -46,7 +46,6 @@ public class Algo1 {
             }
         }
 
-
         public String getName() {
             return name;
         }
