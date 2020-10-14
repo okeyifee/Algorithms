@@ -16,7 +16,6 @@ class Challenge {
 
 // loop to get the count
         for (i = 1; i < n; i++) {
-
             j = j + 1;
             k = k + j;
         }
