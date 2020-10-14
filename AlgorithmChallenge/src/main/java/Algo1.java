@@ -51,7 +51,6 @@ public class Algo1 {
             return name;
         }
 
-
         public void setName(String name) {
             this.name= name;
         }
@@ -134,8 +133,8 @@ public class Algo1 {
         public Comment getRepliedTo() {
             return repliedTo;
         }
-
         public String toString() {
+
 
             if(this.repliedTo == null) { return message + " by " + author.name; }
             return message + " by " + author.name + " (replied to " +
