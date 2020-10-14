@@ -3,7 +3,6 @@ import java.util.TreeMap;
 /*
 Converts a number(string) to it's Roman numeral equivalent
  */
-
 public class Kata {
 
 //    initializes a new treeMap
@@ -11,7 +10,6 @@ public class Kata {
 
 //    Adds key-value pair to the initialized map
     static {
-
 
         map.put(1000, "M");
         map.put(900, "CM");
