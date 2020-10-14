@@ -1,6 +1,7 @@
 import java.util.Map;
 
 public class HtmlColorParser {
+
     private final Map<String, String> presetColors;
 
     public HtmlColorParser(Map<String, String> presetColors) {
