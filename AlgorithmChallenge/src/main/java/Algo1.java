@@ -1,10 +1,8 @@
 import java.util.Date;
 
-
 /*
 Build A simple Comment section using Java OOP
  */
-
 public class Algo1 {
 
     public static class User {
