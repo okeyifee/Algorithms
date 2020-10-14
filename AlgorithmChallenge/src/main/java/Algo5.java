@@ -2,6 +2,7 @@
 Convert number to reversed array of digits
  */
 
+
 class Kata {
 
     public static int[] digitize(long n) {
