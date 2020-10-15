@@ -10,6 +10,7 @@ public class Algo1 {
 //      Variable naming
         private String name;
         private boolean isLoggedIn;
+
         private Date lastLoggedInAt;
 
 
