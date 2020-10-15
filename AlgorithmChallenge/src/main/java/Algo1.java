@@ -19,6 +19,7 @@ public class Algo1 {
         }
 //      Method to check if user is logged in
         boolean isLoggedIn() {
+
             if(this.isLoggedIn){
                 return true;
             }
